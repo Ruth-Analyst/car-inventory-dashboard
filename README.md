@@ -1,7 +1,7 @@
 Car-inventory-dashboard- Django MVP
 
 Este proyecto es un catálogo interactivo de vehículos diseñado para la gestión visual y técnica de inventarios. Como Ingeniera Industrial, he desarrollado esta herramienta enfocada en la eficiencia operativa y la estandarización de datos técnicos de activos.
-![Vista Previa del Catálogo](Project-car-inventory-dashboard)
+![Vista Previa del Catálogo]Project-car-inventory-dashboard
  
  Características de Ingeniería
 •	Arquitectura de Datos Embebida: El sistema cuenta con un dataset pre-cargado directamente en la lógica del proyecto para permitir una demostración inmediata (MVP).
@@ -17,13 +17,8 @@ Este proyecto es un catálogo interactivo de vehículos diseñado para la gesti�
 
 Instalación y Uso Rápido
 Para ver este catálogo funcionando en tu entorno local, sigue estos pasos:
-1.	Clonar el repositorio:
-Bash
-git clone https://github.com/Ruth-Analyst/nombre-de-tu-repo.git
-2.	Navegar a la carpeta:
-Bash
-cd nombre-de-tu-repo
-3.	Ejecutar el servidor:
+1.	Clonar el repositorio
+2.	Ejecutar el servidor:
 Bash
 python manage.py runserver
 4.	Acceder al catálogo: Abre tu navegador en http://127.0.0.1:8000/gestion/lista/
