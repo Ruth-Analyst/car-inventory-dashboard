@@ -31,7 +31,7 @@ ________________________________________
 Sobre la Autora
 Ruth Travezaño - Ingeniera Industrial & Data Scientist (Nuclio).
 "Apasionada por optimizar procesos y transformar datos en decisiones estratégicas".
-•	LinkedIn: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
+•	LinkedIn: www.linkedin.com/in/ruth-travezaño-557316257
 •	Ubicación: Madrid, España 
 ________________________________________
 
