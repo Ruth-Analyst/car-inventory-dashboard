@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado de Coches</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'estilos/estilos.css'%}">
+<style>
+        h1 {
+            text-align: center;
+            color: mediumpurple;
+        }
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: lightblue;
+        }
+        tbody tr:nth-child(even) {
+            background-color: lightpink;
+        }
+
+        .foto-coche {
+            width: 80px;
+            height: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Listado de Coches</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Cilindrada</th>
+                <th>Precio (€)</th>
+                <th>Foto</th> </tr>
+        </thead>
+        <tbody>
+            {% for coche in listado_coches %}
+                <tr>
+                    <td>{{ coche.marca }}</td>
+                    <td>{{ coche.modelo }}</td>
+                    <td>{{ coche.cilindrada }}</td>
+                    <td>{{ coche.precio }}</td>
+                    <td>
+                        <img src="{% static coche.foto %}" class="foto-coche" alt="{{ coche.modelo }}">
+                    </td>
+                </tr>
+
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
