@@ -11,6 +11,7 @@ Este proyecto es un catálogo interactivo de vehículos diseñado para la gesti�
 
  Stack Tecnológico
 •	Framework: Django (Python).
+
 •	Motor de Base de Datos: Oracle Database.
 •	Conector: cx_Oracle (Driver profesional para la integración eficiente de Python con Oracle).
 •	Frontend: HTML5 y CSS3 con diseño de alto contraste para gestión de inventarios.
