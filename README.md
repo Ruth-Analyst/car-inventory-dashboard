@@ -1,7 +1,7 @@
 Car-inventory-dashboard- Django MVP
 
 Este proyecto es un catálogo interactivo de vehículos diseñado para la gestión visual y técnica de inventarios. Como Ingeniera Industrial, he desarrollado esta herramienta enfocada en la eficiencia operativa y la estandarización de datos técnicos de activos.
-![Vista Previa del Catálogo]Project-car-inventory-dashboard
+![Vista Previa del Catálogo](Project-car-inventory-dashboard.png)
  
  Características de Ingeniería
 •	Arquitectura de Datos Embebida: El sistema cuenta con un dataset pre-cargado directamente en la lógica del proyecto para permitir una demostración inmediata (MVP).
